@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - They don't contain private state of the component
 - Use Functional Component as much as possible
 - Absense of 'this' keyword
-- Using solution without state
+- Using solution without state (but since the release of hooks, functional components can use states)
 - Mainly responsible for the UI
 - Stateless/Dumb/Presentational 
 
