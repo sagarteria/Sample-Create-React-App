@@ -1,7 +1,5 @@
 import React from 'react';
 
-function FunctionalComponent() {
-  return <h1>This is Functional Component</h1>
-}
+const FunctionalComponent = () => <h1>This is Functional Component (ES6 Syntax)</h1>
 
 export default FunctionalComponent
