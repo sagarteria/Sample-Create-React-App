@@ -70,7 +70,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Functional Components ###
-They don't contain private state of the component
+- They don't contain private state of the component
+- Use Functional Component as much as possible
+- Absense of 'this' keyword
+- Using solution without state
+- Mainly responsible for the UI
+- Stateless/Dumb/Presentational 
 
 ### Class Components ###
-They contains props, private state of the component
+- They can maintain their own private data - state
+- Complex UI Logic
+- Provide Lifecycle Hooks
+- Statefule/Smart/Container
