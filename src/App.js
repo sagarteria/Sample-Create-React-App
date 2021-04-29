@@ -3,6 +3,7 @@ import './App.css';
 import { FunctionalComponent } from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent';
 import FunctionalComponentJSXExample from './components/FunctionalComponentJSXExample';
+import FunctionalComponentJSExample from './components/FunctionalComponentJSExample';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <FunctionalComponent />
       <ClassComponent />
       <FunctionalComponentJSXExample />
+      <FunctionalComponentJSExample />
     </div>
   );
 }
