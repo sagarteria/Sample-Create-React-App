@@ -82,3 +82,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Complex UI Logic
 - Provide Lifecycle Hooks
 - Statefule/Smart/Container
+
+### JSX ###
+- Extension to Javascript Syntax
+- Write XML like code for elements and components
+- JSX tags have a tag name, attributes and children
+- JSX is not necessary to write React code
+- makes codes simple and elegant
+- ultimately transpiles to pure javascript which is understood by the browser
