@@ -94,4 +94,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - for -> htmlFor
 - camelCase naming convention
  - onclick -> onClick
-- 
+
+### Props vs State ###
+Props
+- gets passed to components
+- function paramters
+- props are immutable
+- props - Functional Components
+- this.props - Class Components
+
+State
+- state is managed within the component
+- variables declared in the function body
+- state can be changed
+- useState Hook - Functional Components
+- this.state - Class Components
