@@ -6,6 +6,7 @@ import FunctionalComponentJSXExample from './components/FunctionalComponentJSXEx
 import FunctionalComponentJSExample from './components/FunctionalComponentJSExample';
 import PropsFunctionalExample from './components/PropsFunctionalExample';
 import StateClassExample from './components/StateClassExample';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       <PropsFunctionalExample name='Name3'></PropsFunctionalExample>
 
       <StateClassExample />
+
+      <Counter />
+
     </div>
   );
 }
