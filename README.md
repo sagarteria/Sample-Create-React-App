@@ -113,3 +113,4 @@ State
 ### setState ###
 - always make use of setState and never modify the state directly
 - code has to be executed after the state has been updated ? Place that code in the call back function which is the second argument to the setState method
+- when you have to update state based on the previous state value, pass in function as an argument instead of the regular object
