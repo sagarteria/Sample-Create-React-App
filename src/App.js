@@ -7,6 +7,9 @@ import FunctionalComponentJSExample from './components/FunctionalComponentJSExam
 import PropsFunctionalExample from './components/PropsFunctionalExample';
 import StateClassExample from './components/StateClassExample';
 import Counter from './components/Counter';
+import FunctionalCompDestructure from './components/DestructuringPropsStates/FunctionalCompDestructure';
+import ClassCompDestructure from './components/DestructuringPropsStates/ClassCompDestructure';
+
 
 function App() {
   return (
@@ -27,6 +30,10 @@ function App() {
       <StateClassExample />
 
       <Counter />
+
+      <FunctionalCompDestructure FirstProp='Name1' SecondProp='Name2'/>
+
+      <ClassCompDestructure FirstProp='Name1' SecondProp='Name2'/>
 
     </div>
   );
