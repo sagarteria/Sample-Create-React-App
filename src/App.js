@@ -9,6 +9,8 @@ import StateClassExample from './components/StateClassExample';
 import Counter from './components/Counter';
 import FunctionalCompDestructure from './components/DestructuringPropsStates/FunctionalCompDestructure';
 import ClassCompDestructure from './components/DestructuringPropsStates/ClassCompDestructure';
+import FunctionClick from './components/Events/FunctionClick';
+import ClassClick from './components/Events/ClassClick';
 
 
 function App() {
@@ -32,9 +34,11 @@ function App() {
       <Counter />
 
       <FunctionalCompDestructure FirstProp='Name1' SecondProp='Name2'/>
-
       <ClassCompDestructure FirstProp='Name1' SecondProp='Name2'/>
 
+      <FunctionClick />
+      <ClassClick />
+      
     </div>
   );
 }
