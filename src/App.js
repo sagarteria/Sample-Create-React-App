@@ -11,6 +11,7 @@ import FunctionalCompDestructure from './components/DestructuringPropsStates/Fun
 import ClassCompDestructure from './components/DestructuringPropsStates/ClassCompDestructure';
 import FunctionClick from './components/Events/FunctionClick';
 import ClassClick from './components/Events/ClassClick';
+import EventBind from './components/Events/EventBinding/EventBind';
 
 
 function App() {
@@ -36,8 +37,11 @@ function App() {
       <FunctionalCompDestructure FirstProp='Name1' SecondProp='Name2'/>
       <ClassCompDestructure FirstProp='Name1' SecondProp='Name2'/>
 
+      {/* Event Bind Examples */}
       <FunctionClick />
       <ClassClick />
+
+      <EventBind />
       
     </div>
   );
