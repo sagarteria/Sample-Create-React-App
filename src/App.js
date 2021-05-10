@@ -12,6 +12,7 @@ import ClassCompDestructure from './components/DestructuringPropsStates/ClassCom
 import FunctionClick from './components/Events/FunctionClick';
 import ClassClick from './components/Events/ClassClick';
 import EventBind from './components/Events/EventBinding/EventBind';
+import OuterComponent from './components/ChildParentCommunication/OuterComponent';
 
 
 function App() {
@@ -40,8 +41,10 @@ function App() {
       {/* Event Bind Examples */}
       <FunctionClick />
       <ClassClick />
-
       <EventBind />
+
+      {/* outer inner component interaction */}
+      <OuterComponent />
       
     </div>
   );
