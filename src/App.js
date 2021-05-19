@@ -16,6 +16,7 @@ import OuterComponent from "./components/ChildParentCommunication/OuterComponent
 import ClassCompIfElse from "./components/ConditionalRendering/ClassCompIfElse";
 import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariable";
 import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCompTernaryOperator";
+import ClassCompShortCircuitOperator from "./components/ConditionalRendering/ClassCompShortCircuitOperator";
 
 function App() {
   return (
@@ -53,8 +54,10 @@ function App() {
       <ClassCompIfElse />
       {/* 2. Using variable */}
       <ClassCompVariable />
-      {/* 3. Using Ternary Operator */}
+      {/* 3. Using ternary operator */}
       <ClassCompTernaryOperator />
+      {/* 4. Short circuit operator */}
+      <ClassCompShortCircuitOperator />
     </div>
   );
 }

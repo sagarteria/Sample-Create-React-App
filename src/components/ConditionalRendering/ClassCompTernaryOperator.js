@@ -19,7 +19,7 @@ class ClassCompTernaryOperator extends Component {
         </div> :
         <div>
           <h3>3. Using Conditional/Ternary Operator</h3>
-          <h3>You are logged-in </h3>
+          <h3>You are not logged-in </h3>
       </div>
     )
   }
