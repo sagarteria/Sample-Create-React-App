@@ -15,6 +15,7 @@ import EventBind from "./components/Events/EventBinding/EventBind";
 import OuterComponent from "./components/ChildParentCommunication/OuterComponent";
 import ClassCompIfElse from "./components/ConditionalRendering/ClassCompIfElse";
 import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariable";
+import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCompTernaryOperator";
 
 function App() {
   return (
@@ -52,6 +53,8 @@ function App() {
       <ClassCompIfElse />
       {/* 2. Using variable */}
       <ClassCompVariable />
+      {/* 3. Using Ternary Operator */}
+      <ClassCompTernaryOperator />
     </div>
   );
 }
