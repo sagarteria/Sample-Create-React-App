@@ -14,6 +14,7 @@ import ClassClick from "./components/Events/ClassClick";
 import EventBind from "./components/Events/EventBinding/EventBind";
 import OuterComponent from "./components/ChildParentCommunication/OuterComponent";
 import ClassCompIfElse from "./components/ConditionalRendering/ClassCompIfElse";
+import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariable";
 
 function App() {
   return (
@@ -47,8 +48,10 @@ function App() {
       <OuterComponent />
 
       {/* Conditional Rendering Examples */}
-      {/* 1. If-Else */}
+      {/* 1. using If-Else */}
       <ClassCompIfElse />
+      {/* 2. Using variable */}
+      <ClassCompVariable />
     </div>
   );
 }
