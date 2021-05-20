@@ -14,7 +14,7 @@ class ClassCompIfElse extends Component {
       return (      
         <div>
           <hr />
-          <h2>Conditional Rendering Class Component Example</h2>
+          <h2>#16 - Conditional Rendering Class Component Example</h2>
           <h3>1. Using If-Else</h3>
           <h3>You are logged-in </h3>
         </div>
@@ -23,7 +23,7 @@ class ClassCompIfElse extends Component {
       return (      
         <div>
           <hr />
-          <h2>Conditional Rendering Class Component Example</h2>
+          <h2>#16 - Conditional Rendering Class Component Example</h2>
           <h3>1. Using If-Else</h3>
           <h3>You are not logged-in </h3>
         </div>
