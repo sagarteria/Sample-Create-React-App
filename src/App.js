@@ -17,6 +17,7 @@ import ClassCompIfElse from "./components/ConditionalRendering/ClassCompIfElse";
 import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariable";
 import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCompTernaryOperator";
 import ClassCompShortCircuitOperator from "./components/ConditionalRendering/ClassCompShortCircuitOperator";
+import NameList from "./components/Lists/NameList";
 
 function App() {
   return (
@@ -58,6 +59,10 @@ function App() {
       <ClassCompTernaryOperator />
       {/* 4. Short circuit operator */}
       <ClassCompShortCircuitOperator />
+
+      {/* Working with Lists */}
+      <NameList />
+      
     </div>
   );
 }
