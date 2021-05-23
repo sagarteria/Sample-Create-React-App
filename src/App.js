@@ -18,6 +18,9 @@ import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariab
 import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCompTernaryOperator";
 import ClassCompShortCircuitOperator from "./components/ConditionalRendering/ClassCompShortCircuitOperator";
 import NameList from "./components/Lists/NameList";
+import Stylesheet from "./components/Stylesheet/Stylesheet";
+import Inline from "./components/Stylesheet/Inline";
+import CssModules from "./components/Stylesheet/CssModules";
 
 function App() {
   return (
@@ -62,6 +65,11 @@ function App() {
 
       {/* Working with Lists */}
       <NameList />
+
+      {/* CSS Styling */}
+      <Stylesheet primary={true}/>
+      <Inline />
+      <CssModules />
       
     </div>
   );
