@@ -20,6 +20,8 @@ import ClassCompShortCircuitOperator from "./components/ConditionalRendering/Cla
 import NameList from "./components/Lists/NameList";
 import Stylesheet from "./components/Stylesheet/Stylesheet";
 import Inline from "./components/Stylesheet/Inline";
+import "./components/Stylesheet/appStyles.css";
+import Styles from "./components/Stylesheet/appStyles.css";
 
 function App() {
   return (
