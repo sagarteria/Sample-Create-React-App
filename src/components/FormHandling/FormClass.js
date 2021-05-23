@@ -29,29 +29,36 @@ class FormClass extends Component{
     })
   }
 
+  handleSubmit = event => {
+    alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`);
+    event.preventDefault();
+  }
+
   render () {
+    const {username, comments, topic} = this.state;
     return (
       <>
         <hr />
         <h2> #21 Form Component </h2>
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <div>
             <label>Username</label>
-            <input type='text' value={this.state.username} onChange={this.handleUsernameChange}/>
+            <input type='text' value={username} onChange={this.handleUsernameChange}/>
           </div>
           <div>
             <label>Comments</label>
-            <textarea value={this.state.comments} onChange={this.handleCommentsChange} >
+            <textarea value={comments} onChange={this.handleCommentsChange} >
             </textarea>
           </div>
           <div>
             <label>Topic</label>
-            <select value={this.state.value} onChange={this.handleTopicChange} >
+            <select value={topic} onChange={this.handleTopicChange} >
               <option value="react">React</option>
               <option value="angular">Angular</option>
               <option value="vue">Vue</option>
             </select>
           </div>
+          <button type="submit">Submit</button>
         </form>
       </>
     )
