@@ -120,3 +120,10 @@ State
 2. Inline Styling
 3. CSS Modules
 4. CSS in JS Modules (Styled Components)
+
+### Life Cycle Methods ###
+React Version 16.4
+- Mounting
+- Updating
+- Unmounting
+- Error Handling
