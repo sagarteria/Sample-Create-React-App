@@ -18,10 +18,12 @@ import ClassCompVariable from "./components/ConditionalRendering/ClassCompVariab
 import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCompTernaryOperator";
 import ClassCompShortCircuitOperator from "./components/ConditionalRendering/ClassCompShortCircuitOperator";
 import NameList from "./components/Lists/NameList";
+import Stylesheet from "./components/Stylesheet/Stylesheet";
 
 function App() {
   return (
     <div className="App">
+      <Stylesheet primary={true}/>
       <FunctionalComponent />
       <ClassComponent />
       <FunctionalComponentJSXExample />
