@@ -5,7 +5,7 @@ function Stylesheet(props) {
   let className = props.primary ? 'primary' : '';
   return (
       <div>
-        <h1 className={className}>Stylesheets</h1>
+        <h1 className={`${className} font-xl`}>Stylesheets</h1>
         <hr />
       </div>
   )
