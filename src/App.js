@@ -19,11 +19,11 @@ import ClassCompTernaryOperator from "./components/ConditionalRendering/ClassCom
 import ClassCompShortCircuitOperator from "./components/ConditionalRendering/ClassCompShortCircuitOperator";
 import NameList from "./components/Lists/NameList";
 import Stylesheet from "./components/Stylesheet/Stylesheet";
+import Inline from "./components/Stylesheet/Inline";
 
 function App() {
   return (
     <div className="App">
-      <Stylesheet primary={true}/>
       <FunctionalComponent />
       <ClassComponent />
       <FunctionalComponentJSXExample />
@@ -64,6 +64,10 @@ function App() {
 
       {/* Working with Lists */}
       <NameList />
+
+      {/* CSS Styling */}
+      <Stylesheet primary={true}/>
+      <Inline />
       
     </div>
   );
