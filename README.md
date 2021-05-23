@@ -123,7 +123,11 @@ State
 
 ### Life Cycle Methods ###
 React Version 16.4
-- Mounting
-- Updating
-- Unmounting
-- Error Handling
+- Mounting (when an instance of a component is being created and inserted into the DOM)
+  -- constructor, static getDerivedStateFromProps, render and componentDidMount
+- Updating (when a component is either rendered as a result of changes to either its props or state)
+  --  static getDerivedStateFromProps, componentShouldUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate
+- Unmounting (when a component is being removed from the DOM)
+  -- componentWillUnmount
+- Error Handling (when there is error during rendering, in a lifecycle method, or in the constructor of any child component)
+  --  static getDerivedStateFromError, componentDidCatch
