@@ -8,8 +8,7 @@ function Inline() {
   }
   return (
       <div>
-        <h3 style={heading}>Inline Styling</h3>
-        <hr />
+        <h3 style={heading}>2. Inline Styling</h3>
       </div>
   )
 }

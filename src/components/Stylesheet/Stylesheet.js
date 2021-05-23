@@ -6,7 +6,8 @@ function Stylesheet(props) {
   return (
       <div>
         <hr />
-        <h1 className={`${className} font-xl`}>Stylesheets</h1>
+        <h2>#20 - Stylesheets</h2>
+        <h1 className={`${className} font-xl`}>1. CSS Stylesheets</h1>
       </div>
   )
 }
