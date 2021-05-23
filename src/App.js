@@ -21,6 +21,7 @@ import NameList from "./components/Lists/NameList";
 import Stylesheet from "./components/Stylesheet/Stylesheet";
 import Inline from "./components/Stylesheet/Inline";
 import CssModules from "./components/Stylesheet/CssModules";
+import FormClass from "./components/FormHandling/FormClass";
 
 function App() {
   return (
@@ -70,6 +71,9 @@ function App() {
       <Stylesheet primary={true}/>
       <Inline />
       <CssModules />
+
+      {/* Form Handling */}
+      <FormClass />
       
     </div>
   );
