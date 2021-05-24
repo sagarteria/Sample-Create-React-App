@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LifecycleB from './LifecycleB';
 
 class LifecycleA extends Component{
   constructor(props) {
@@ -27,6 +28,7 @@ class LifecycleA extends Component{
       <hr />
       <h2>LifeCycle Methods</h2>
       <h3>LifeCycle A</h3>
+      <LifecycleB />
       </>
     )
   }
