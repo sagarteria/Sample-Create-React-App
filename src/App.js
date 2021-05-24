@@ -22,6 +22,7 @@ import Stylesheet from "./components/Stylesheet/Stylesheet";
 import Inline from "./components/Stylesheet/Inline";
 import CssModules from "./components/Stylesheet/CssModules";
 import FormClass from "./components/FormHandling/FormClass";
+import LifecycleA from "./components/LifecycleMethods/LifecycleA";
 
 function App() {
   return (
@@ -74,6 +75,9 @@ function App() {
 
       {/* Form Handling */}
       <FormClass />
+
+      {/* Lifecycle methods */}
+      <LifecycleA />
       
     </div>
   );
