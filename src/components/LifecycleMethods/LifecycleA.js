@@ -46,7 +46,7 @@ class LifecycleA extends Component{
     return (
       <>
       <hr />
-      <h2>LifeCycle Methods</h2>
+      <h2>#22-24 LifeCycle Methods</h2>
       <h3>LifeCycle A</h3>
       <button onClick={this.changeState}>Change State</button>
       <LifecycleB />

@@ -23,6 +23,8 @@ import Inline from "./components/Stylesheet/Inline";
 import CssModules from "./components/Stylesheet/CssModules";
 import FormClass from "./components/FormHandling/FormClass";
 import LifecycleA from "./components/LifecycleMethods/LifecycleA";
+import FagmentDemoFunctional from "./components/Fragments/FagmentDemoFunctional";
+import Table from "./components/Fragments/Table";
 
 function App() {
   return (
@@ -73,11 +75,15 @@ function App() {
       <Inline />
       <CssModules />
 
-      {/* Form Handling */}
+      {/* 21 Form Handling */}
       <FormClass />
 
-      {/* Lifecycle methods */}
+      {/* 22-24 Lifecycle methods */}
       <LifecycleA />
+
+      {/* 25 Fragment*/}
+      <FagmentDemoFunctional />
+      <Table />      
       
     </div>
   );

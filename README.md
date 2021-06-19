@@ -131,3 +131,6 @@ React Version 16.4
   -- componentWillUnmount
 - Error Handling (when there is error during rendering, in a lifecycle method, or in the constructor of any child component)
   --  static getDerivedStateFromError, componentDidCatch
+
+### Fragments ###
+- hep in grouping elements without adding an extra node
