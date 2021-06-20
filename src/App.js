@@ -25,6 +25,7 @@ import FormClass from "./components/FormHandling/FormClass";
 import LifecycleA from "./components/LifecycleMethods/LifecycleA";
 import FagmentDemoFunctional from "./components/Fragments/FagmentDemoFunctional";
 import Table from "./components/Fragments/Table";
+import OuterComponentPure from "./components/PureComponents/OuterComponent";
 
 function App() {
   return (
@@ -83,7 +84,10 @@ function App() {
 
       {/* 25 Fragment*/}
       <FagmentDemoFunctional />
-      <Table />      
+      <Table />
+      
+      {/* 26 Pure Components */}
+      <OuterComponentPure />
       
     </div>
   );
