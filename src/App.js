@@ -26,6 +26,7 @@ import LifecycleA from "./components/LifecycleMethods/LifecycleA";
 import FagmentDemoFunctional from "./components/Fragments/FagmentDemoFunctional";
 import Table from "./components/Fragments/Table";
 import OuterComponentPure from "./components/PureComponents/OuterComponent";
+import OuterComponentMemo from "./components/Memo/OuterComponent";
 
 function App() {
   return (
@@ -87,7 +88,10 @@ function App() {
       <Table />
       
       {/* 26 Pure Components */}
-      <OuterComponentPure />
+      {/* <OuterComponentPure /> */}
+
+      {/* 27 Memo */}
+      <OuterComponentMemo />
       
     </div>
   );

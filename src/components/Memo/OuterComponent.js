@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import RegularComponent from './RegularComponent';
-import PureComponents from './PureComponents';
+import MemoComponent from './MemoComponent';
 
 class OuterComponent extends Component {
     
@@ -25,10 +24,9 @@ class OuterComponent extends Component {
         return (
             <div>
                 <hr />
-                <h2>#26 Pure Components</h2>
+                <h2>#27 Memo</h2>
                 Outer Component
-                <RegularComponent name={this.state.name}></RegularComponent>                
-                <PureComponents name={this.state.name}></PureComponents>
+                <MemoComponent name={this.state.name} />
             </div>
         )
     }
