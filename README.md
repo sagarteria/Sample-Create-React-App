@@ -134,3 +134,7 @@ React Version 16.4
 
 ### Fragments ###
 - hep in grouping elements without adding an extra node
+
+### Refs ###
+- access DOM nodes
+- use cases - focus input field on page load

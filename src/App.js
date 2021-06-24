@@ -27,6 +27,7 @@ import FagmentDemoFunctional from "./components/Fragments/FagmentDemoFunctional"
 import Table from "./components/Fragments/Table";
 import OuterComponentPure from "./components/PureComponents/OuterComponent";
 import OuterComponentMemo from "./components/Memo/OuterComponent";
+import RefsDemo from "./components/Refs/RefsDemo"
 
 function App() {
   return (
@@ -88,10 +89,13 @@ function App() {
       <Table />
       
       {/* 26 Pure Components */}
-      {/* <OuterComponentPure /> */}
+      <OuterComponentPure />
 
       {/* 27 Memo */}
       <OuterComponentMemo />
+
+      {/* 28 Refs */}
+      <RefsDemo />      
       
     </div>
   );
