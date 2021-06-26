@@ -27,7 +27,8 @@ import FagmentDemoFunctional from "./components/Fragments/FagmentDemoFunctional"
 import Table from "./components/Fragments/Table";
 import OuterComponentPure from "./components/PureComponents/OuterComponent";
 import OuterComponentMemo from "./components/Memo/OuterComponent";
-import RefsDemo from "./components/Refs/RefsDemo"
+import RefsDemo from "./components/Refs/RefsDemo";
+import FocusInputRefsClass from "./components/Refs/FocusInputRefsClass";
 
 function App() {
   return (
@@ -95,7 +96,10 @@ function App() {
       <OuterComponentMemo />
 
       {/* 28 Refs */}
-      <RefsDemo />      
+      <RefsDemo />
+
+      {/* 29 Refs with Class Component */}
+      <FocusInputRefsClass />
       
     </div>
   );

@@ -138,3 +138,4 @@ React Version 16.4
 ### Refs ###
 - access DOM nodes
 - use cases - focus input field on page load
+- Refs cannot be attached to functional component
