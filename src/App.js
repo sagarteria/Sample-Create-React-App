@@ -29,6 +29,7 @@ import OuterComponentPure from "./components/PureComponents/OuterComponent";
 import OuterComponentMemo from "./components/Memo/OuterComponent";
 import RefsDemo from "./components/Refs/RefsDemo";
 import FocusInputRefsClass from "./components/Refs/FocusInputRefsClass";
+import RefsForwardingOuterInput from "./components/Refs/RefsForwardingOuterInput";
 
 function App() {
   return (
@@ -100,6 +101,9 @@ function App() {
 
       {/* 29 Refs with Class Component */}
       <FocusInputRefsClass />
+
+      {/* 30 Refs Forwarding */}
+      <RefsForwardingOuterInput />
       
     </div>
   );
