@@ -30,6 +30,7 @@ import OuterComponentMemo from "./components/Memo/OuterComponent";
 import RefsDemo from "./components/Refs/RefsDemo";
 import FocusInputRefsClass from "./components/Refs/FocusInputRefsClass";
 import RefsForwardingOuterInput from "./components/Refs/RefsForwardingOuterInput";
+import PortalDemo from "./components/Portal/PortalDemo";
 
 function App() {
   return (
@@ -104,7 +105,9 @@ function App() {
 
       {/* 30 Refs Forwarding */}
       <RefsForwardingOuterInput />
-      
+
+      {/* 31 Portal */}
+      <PortalDemo />
     </div>
   );
 }
